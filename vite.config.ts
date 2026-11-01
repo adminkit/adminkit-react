@@ -12,6 +12,8 @@ export default defineConfig(({ mode }) => {
     build: {
       // The page with every Lucide icon is the large chunk; it loads only on that page
       chunkSizeWarningLimit: 1100,
+      // Bootstrap's Sass takes most of the build time; skip Rolldown's notice about it
+      rolldownOptions: { checks: { pluginTimings: false } },
     },
     resolve: {
       alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) },
