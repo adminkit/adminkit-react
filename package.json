@@ -12,7 +12,6 @@
     "lint": "eslint . && prettier --check . && tsc --noEmit && node scripts/stats.mjs --check",
     "format": "prettier --write .",
     "stats": "node scripts/stats.mjs",
-    "stats:sync": "node scripts/stats.mjs --sync",
     "test": "playwright test",
     "test:install": "playwright install chromium"
   },

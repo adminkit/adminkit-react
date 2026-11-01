@@ -42,7 +42,7 @@ chore(deps): upgrade vite to 8.3.5
 
 ## Counts
 
-Page, plugin and icon counts are generated, never typed: `npm run stats` updates `src/data/stats.json` and the README table, and `npm run lint` fails while either is stale. When AdminKit PRO's pages, plugins or icons change, and before every release, refresh its snapshot with `npm run stats:sync -- --pro <path to AdminKit PRO for React>` and commit `src/data/editions/pro.json`.
+Page, plugin and icon counts are generated, never typed: `npm run stats` updates `src/data/stats.json` and the README table, and `npm run lint` fails while either is stale. `src/data/editions/pro.json` is a snapshot of AdminKit PRO's counts that the maintainers refresh before a release.
 
 ## Changelog
 
