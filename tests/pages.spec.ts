@@ -7,7 +7,7 @@ import pages from "../src/data/pages.json" with { type: "json" };
 
 const colorModes = ["light", "dark"] as const;
 
-// Google's own map controls are the one known exception (see AGENTS.md)
+// Google's own map controls are the one known exception
 const exclude: Record<string, string[]> = {
   "/maps-google": ["iframe"],
 };
