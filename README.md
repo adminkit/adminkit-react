@@ -1,5 +1,7 @@
 <p align="center">
   <a href="https://github.com/adminkit/adminkit-react"><img src="https://adminkit.io/icons/icon-512x512.png" alt="AdminKit is a free & open-source React dashboard & admin template based on Bootstrap 5" width="96"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src=".github/logos/react.svg" alt="React" width="96">
 </p>
 
 <h3 align="center">AdminKit for React</h3>
