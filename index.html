@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Responsive Admin & Dashboard Template based on React and Bootstrap 5"
+    />
+    <link rel="icon" href="/img/icons/icon-48x48.png" />
+    <title>AdminKit Demo - React Admin Template</title>
+
+    <!-- The color mode before the first paint, and the hidden state of the cards that fade
+         in (src/layouts/page-effects.tsx) -->
+    <script>
+      (() => {
+        const root = document.documentElement;
+
+        // Color mode: the stored one, or the operating system's for auto
+        let colorMode = null;
+        try {
+          colorMode = localStorage.getItem("adminkit_config_colorMode");
+        } catch {
+          // Storage is unavailable (private mode)
+        }
+        if (colorMode !== "light" && colorMode !== "dark") {
+          colorMode = matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        root.setAttribute("data-bs-theme", colorMode);
+
+        // Cards fade in as they scroll into view. They stay visible without JavaScript, and
+        // when the app has not started within 3 seconds.
+        root.classList.add("js-reveal");
+        setTimeout(() => {
+          if (!root.classList.contains("js-reveal-ready")) {
+            root.classList.remove("js-reveal");
+          }
+        }, 3000);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

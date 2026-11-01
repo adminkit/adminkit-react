@@ -1,0 +1,27 @@
+# dependencies
+/node_modules
+
+# build
+/dist/
+
+# tests
+/test-results/
+/playwright-report/
+
+# misc
+.DS_Store
+.vscode/
+*.pem
+
+# logs
+npm-debug.log*
+
+# env files
+.env*
+!.env.example
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
