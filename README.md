@@ -11,6 +11,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/adminkit/adminkit"><img src=".github/editions/html.svg" width="86" height="34" alt="AdminKit for HTML"></a>
+  <a href="https://github.com/adminkit/adminkit-react"><img src=".github/editions/react.svg" width="87" height="34" alt="AdminKit for React (this repository)"></a>
+  <a href="https://github.com/adminkit/adminkit-nextjs"><img src=".github/editions/nextjs.svg" width="96" height="34" alt="AdminKit for Next.js"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/adminkit/adminkit-react/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="https://github.com/adminkit/adminkit-react/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/adminkit/adminkit-react.svg" alt="GitHub issues open"></a>
   <a href="https://github.com/adminkit/adminkit-react/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/adminkit/adminkit-react.svg" alt="GitHub issues closed"></a>
@@ -82,7 +88,7 @@ npm run build
 
 ## Documentation
 
-[Installation](https://adminkit.io/react/docs/getting-started/installation/), [project structure](https://adminkit.io/react/docs/getting-started/project-structure/), [theming](https://adminkit.io/react/docs/customization/theming/), [dark mode](https://adminkit.io/react/docs/customization/dark-mode/), the [components](https://adminkit.io/react/docs/components/overview/) and [deployment](https://adminkit.io/react/docs/getting-started/deployment/) are documented at [adminkit.io/react/docs](https://adminkit.io/react/docs/).
+[Installation](https://adminkit.io/react/docs/getting-started/installation/), [project structure](https://adminkit.io/react/docs/getting-started/project-structure/), [theming](https://adminkit.io/react/docs/customization/theming/), [dark mode](https://adminkit.io/react/docs/customization/dark-mode/), [deployment](https://adminkit.io/react/docs/getting-started/deployment/) and every component are documented at [adminkit.io/react/docs](https://adminkit.io/react/docs/).
 
 ## Browser support
 
@@ -95,6 +101,6 @@ npm run build
 - [Website](https://adminkit.io/)
 - [Documentation](https://adminkit.io/react/docs/)
 - [Support](https://adminkit.io/support/)
-- [Affiliate Program](https://adminkit.io/affiliate-program)
+- [Affiliate Program](https://adminkit.io/affiliate-program/)
 
 To report a bug or request a feature, [open a new issue](https://github.com/adminkit/adminkit-react/issues/new).
